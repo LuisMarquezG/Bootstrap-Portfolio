@@ -133,3 +133,29 @@ p {
   height: 9rem;
   width: 9rem;
 }
+
+/* Footer */
+
+.footer {
+  /* display: flex;
+  align-items: baseline; */
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.footer-header,
+.footer-title {
+  font-size: medium;
+}
+
+.bt {
+  background-color: var(--primary-color);
+  color: var(--cta-color);
+  font-size: smaller;
+}
+
+.bt:hover {
+  background-color: var(--primary-color);
+  color: var(--cta-color);
+  box-shadow: var(--bg-color) 1px 0 10px;
+}
