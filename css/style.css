@@ -137,10 +137,11 @@ p {
 /* Footer */
 
 .footer {
-  /* display: flex;
-  align-items: baseline; */
+  display: flex;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  height: 5vh;
+  padding: 0 10%;
 }
 
 .footer-header,
@@ -158,4 +159,13 @@ p {
   background-color: var(--primary-color);
   color: var(--cta-color);
   box-shadow: var(--bg-color) 1px 0 10px;
+}
+
+.footer-header,
+.footer-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 5;
 }
