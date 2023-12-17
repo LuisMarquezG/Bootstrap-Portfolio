@@ -38,7 +38,7 @@ p {
 .navbar {
   height: 14vh;
   background: var(--primary-color);
-
+  padding: 0 2%;
 }
 
 .navbar-brand {
@@ -80,6 +80,7 @@ p {
   height: 60vh;
   background-color: var(--primary-color);
   border: 5px solid var(--cta-color);
+  border-radius: 10px;
 
 }
 
@@ -119,7 +120,9 @@ p {
 .skills {
   height: 14rem;
   width: auto;
-  border-bottom: 5px solid var(--cta-color);
+  background-color: var(--bg-color);
+  border: 5px solid var(--cta-color);
+  border-radius: 10px;
   margin-top: 3rem;
   padding-top: 2rem;
 }
@@ -133,6 +136,58 @@ p {
   height: 9rem;
   width: 9rem;
 }
+
+
+/* Works */
+
+.works {
+  background-color: var(--bg-color);
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 75%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas: "card-1 card-2 card-3 card-4";
+  gap: 10px;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 5%;
+  padding: 0% 10%;
+
+}
+
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-4 {
+  grid-area: card-4;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  border: 5px solid var(--cta-color);
+  border-radius: 10px;
+}
+
+.card-body {
+  background-color: var(--primary-color);
+}
+
+.card-text {
+
+  color: var(--secondary-color);
+}
+
 
 /* Footer */
 
