@@ -113,3 +113,23 @@ p {
   color: var(--primary-color);
   text-transform: uppercase;
 }
+
+/* Skills */
+
+.skills {
+  height: 14rem;
+  width: auto;
+  border-bottom: 5px solid var(--cta-color);
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.tech-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech-img {
+  height: 9rem;
+  width: 9rem;
+}
