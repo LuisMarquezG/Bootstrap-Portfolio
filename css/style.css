@@ -65,7 +65,7 @@ p {
 
 /* About and Contact */
 
-.hero {
+.main {
   margin: 0 auto;
 }
 
@@ -103,14 +103,28 @@ p {
   flex-direction: column;
 }
 
-.btn {
+.btn,
+.btn:visited {
   background-color: var(--cta-color);
   color: var(--primary-color);
   text-transform: uppercase;
 }
 
+
+
 .btn:hover {
   background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.contacting {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contacting:visited {
+  background-color: var(--cta-color);
   color: var(--primary-color);
   text-transform: uppercase;
 }
@@ -119,11 +133,11 @@ p {
 
 .skills {
   height: 14rem;
-  width: auto;
-  background-color: var(--bg-color);
+  background-color: var(--secondary-color);
   border: 5px solid var(--cta-color);
   border-radius: 10px;
   margin-top: 3rem;
+  padding: 0 10%;
   padding-top: 2rem;
 }
 
@@ -210,7 +224,8 @@ p {
   font-size: smaller;
 }
 
-.bt:hover {
+.bt:hover,
+.bt:visited {
   background-color: var(--primary-color);
   color: var(--cta-color);
   box-shadow: var(--bg-color) 1px 0 10px;

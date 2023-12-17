@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse links-right" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About me</a>
+            <a class="nav-link active" aria-current="page" href="#about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">My Skills</a>
+            <a class="nav-link active" aria-current="page" href="#skills">My Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">My Works</a>
+            <a class="nav-link active" aria-current="page" href="#works">My Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact me</a>
+            <a class="nav-link active" aria-current="page" href="#contact">Contact me</a>
           </li>
         </ul>
       </div>
@@ -40,11 +40,11 @@
 
   <!-- About and Contact -->
 
-  <section class="hero">
+  <section class="main" id="hero">
     <div class="p-5 mb-4 rounded-3 outer-space">
       <div class="grid text-center about-contact">
         <!-- About -->
-        <div class="g-col-6 about">
+        <div class="g-col-6 about" id="about">
           <div class="card" style="width: 18rem;">
             <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
             <div class="card-body">
@@ -54,24 +54,18 @@
             </div>
           </div>
         </div>
-
-
-
-
         <!-- Contact -->
-        <div class="g-col-6 contact">
-          <button type="button" class="btn btn-lg">Email me</button>
-          <button type="button" class="btn btn-lg">Call me</button>
-          <button type="button" class="btn btn-lg">Message me</button>
-
-
+        <div class="g-col-6 contact" id="contact">
+          <button type="button" class="btn btn-lg"><a href="mailto:myemail.com" target="_blank" class="contacting">
+              whatever@lm-g.com</a></button>
+          <button type="button" class="btn btn-lg">Call me: +44 (0) 12345667889</button>
+          <button type="button" class="btn btn-lg"><a href=https://uk.linkedin.com/ class="contacting"
+              target="_blank">Message me on Linkdin</a></button>
         </div>
-
-
       </div>
 
       <!-- Skills -->
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="tech-box">
           <img src="./images/html-5.png" class="html tech-img">
           <img src="./images/css.png" class="css tech-img">
@@ -82,60 +76,67 @@
         </div>
       </section>
     </div>
+
+    <!-- Works -->
+
+    <section class="works" id="works">
+      <div class="card card-1" style="width: 18rem;">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Prework Challenge was the first Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Deleniti maxime doloremque pariatur harum sed dolorum eius? Vitae, odit voluptatibus numquam eos in velit,
+            tempore quibusdam porro deleniti itaque exercitationem nulla?</p>
+        </div>
+      </div>
+      <div class="card card-2" style="width: 18rem;">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Refactoring Challenge on this challenge I was Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Soluta inventore doloremque nulla iste natus ut laboriosam est, voluptate eaque
+            architecto.
+            Ipsum delectus dolorem, veniam laboriosam enim magni.</p>
+        </div>
+      </div>
+      <div class="card card-3" style="width: 18rem;">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Portfolio Challenge was my last week Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Excepturi, consequuntur corporis. Voluptatum quibusdam at voluptate aliquid veritatis natus nostrum
+            vel
+            minima! Ea neque sequi quidem cumque dolor nostrum quae autem.</p>
+        </div>
+      </div>
+      <div class="card card-4" style="width: 18rem;">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">California Travel, work in progress...</p>
+        </div>
+      </div>
+    </section>
+
   </section>
 
-  <!-- Works -->
 
-  <section class="works">
-    <div class="card card-1" style="width: 18rem;">
-      <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Prework Challenge was the first Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Deleniti maxime doloremque pariatur harum sed dolorum eius? Vitae, odit voluptatibus numquam eos in velit,
-          tempore quibusdam porro deleniti itaque exercitationem nulla?</p>
-      </div>
-    </div>
-    <div class="card card-2" style="width: 18rem;">
-      <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Refactoring Challenge on this challenge I was Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Soluta inventore doloremque nulla iste natus ut laboriosam est, voluptate eaque architecto.
-          Ipsum delectus dolorem, veniam laboriosam enim magni.</p>
-      </div>
-    </div>
-    <div class="card card-3" style="width: 18rem;">
-      <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Portfolio Challenge was my last week Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Excepturi, consequuntur corporis. Voluptatum quibusdam at voluptate aliquid veritatis natus nostrum vel
-          minima! Ea neque sequi quidem cumque dolor nostrum quae autem.</p>
-      </div>
-    </div>
-    <div class="card card-4" style="width: 18rem;">
-      <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">California Travel, work in progress...</p>
-      </div>
-    </div>
-  </section>
+
+
 
 
   <!-- Footer -->
 
-  <section class="footer">
+  <section class="footer" id="footer">
     <div class="footer-header">
       Copyright © 2023 by Luis Márquez-Garrido All rights reserved
     </div>
     <div class="footer-body">
       <h5 class="footer-title">Content:</h5>
-      <a href="#" class="btn bt">About me</a>
-      <a href="#" class="btn bt">My skills</a>
-      <a href="#" class="btn bt">My works</a>
-      <a href="#" class="btn bt">Contact me</a>
+      <a href="#about" class="btn bt">About me</a>
+      <a href="#skills" class="btn bt">My skills</a>
+      <a href="#works" class="btn bt">My works</a>
+      <a href="#contact" class="btn bt">Contact me</a>
       <h5 class="footer-title">Tools:</h5>
-      <a href="#" class="btn bt">Bootstrap</a>
-      <a href="#" class="btn bt">Coolors</a>
-      <a href="#" class="btn bt">Flaticon</a>
+      <a href=https://getbootstrap.com/ class="btn bt">Bootstrap</a>
+      <a href=https://coolors.co/ class="btn bt">Coolors</a>
+      <a href=https://www.flaticon.com/ class="btn bt">Flaticon</a>
     </div>
   </section>
 
