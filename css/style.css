@@ -34,3 +34,82 @@ p {
 }
 
 /* Navigation */
+
+.navbar {
+  height: 14vh;
+  background: var(--primary-color);
+
+}
+
+.navbar-brand {
+  color: var(--cta-color);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: var(--cta-color);
+}
+
+.links-right {
+  flex-grow: inherit;
+}
+
+
+/* About and Contact */
+
+.hero {
+  margin: 0 auto;
+}
+
+.outer-space {
+  background-color: var(--secondary-color);
+}
+
+.about-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60vh;
+  background-color: var(--primary-color);
+  border: 5px solid var(--cta-color);
+
+}
+
+.title {
+  color: var(--secondary-color);
+}
+
+/* About */
+.about {
+  flex-grow: 1;
+}
+
+.card-text {
+  color: var(--primary-color);
+}
+
+/* Contact */
+.contact {
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: var(--cta-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
