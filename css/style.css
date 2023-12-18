@@ -146,6 +146,7 @@ p {
 
 .card-4 {
   grid-area: card-4;
+  width: 100%;
 }
 
 .card-1,
@@ -154,30 +155,30 @@ p {
 .card-4 {
   border: 5px solid var(--cta-color);
   border-radius: 10px;
+  height: 520px;
+  margin: 0 50%;
 }
 
-.card-body {
-  background-color: var(--primary-color);
+.cards-body {
+  background-color: var(--secondary-color);
 }
 
-.card-text {
 
-  color: var(--secondary-color);
-}
 
 
 /* About and Contact */
 
 
-
-.outer-space {
+.bg-color-section {
   background-color: var(--secondary-color);
+  padding: 5% 0;
 }
+
 
 .about-contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 60vh;
   background-color: var(--primary-color);
   border: 5px solid var(--cta-color);
@@ -185,8 +186,13 @@ p {
 
 }
 
+
+
 .title {
   color: var(--secondary-color);
+  border: 1px solid black;
+  padding: 1%;
+  background-color: var(--primary-color);
 }
 
 /* About */
@@ -240,6 +246,7 @@ p {
   color: var(--secondary-color);
   height: 5vh;
   padding: 0 10%;
+  margin-top: 5%;
 }
 
 .footer-header,
@@ -268,3 +275,8 @@ p {
   justify-content: space-between;
   flex-grow: 5;
 }
+
+
+
+
+/* Media queries */
