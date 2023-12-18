@@ -16,6 +16,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.main {
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -69,71 +73,24 @@ p {
 }
 
 
-/* About and Contact */
-
-.main {
-  margin: 0 auto;
+/* Header */
+.blur {
+  backdrop-filter: blur(10px);
+  /*I have used this property to blur part of the back ground without blurring the text on it*/
+  padding: 1%;
 }
 
-.outer-space {
-  background-color: var(--secondary-color);
+.hero {
+  background-image: url(../images/code-screen.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.about-contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 60vh;
-  background-color: var(--primary-color);
-  border: 5px solid var(--cta-color);
-  border-radius: 10px;
-
-}
-
-.title {
+.hero-text {
   color: var(--secondary-color);
 }
 
-/* About */
-.about {
-  flex-grow: 1;
-}
 
-.card-text {
-  color: var(--primary-color);
-}
-
-/* Contact */
-.contact {
-  flex-grow: 1;
-  flex-direction: column;
-}
-
-.btn,
-.btn:visited {
-  background-color: var(--cta-color);
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
-
-
-
-.btn:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
-
-.contacting {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.contacting:visited {
-  background-color: var(--cta-color);
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
 
 /* Skills */
 
@@ -142,7 +99,7 @@ p {
   background-color: var(--secondary-color);
   border: 5px solid var(--cta-color);
   border-radius: 10px;
-  margin-top: 3rem;
+  margin: 3rem;
   padding: 0 10%;
   padding-top: 2rem;
 }
@@ -207,6 +164,72 @@ p {
 
   color: var(--secondary-color);
 }
+
+
+/* About and Contact */
+
+
+
+.outer-space {
+  background-color: var(--secondary-color);
+}
+
+.about-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60vh;
+  background-color: var(--primary-color);
+  border: 5px solid var(--cta-color);
+  border-radius: 10px;
+
+}
+
+.title {
+  color: var(--secondary-color);
+}
+
+/* About */
+.about {
+  flex-grow: 1;
+}
+
+.card-text {
+  color: var(--primary-color);
+}
+
+/* Contact */
+.contact {
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.btn,
+.btn:visited {
+  background-color: var(--cta-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.contacting {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contacting:visited {
+  background-color: var(--cta-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
 
 
 /* Footer */
