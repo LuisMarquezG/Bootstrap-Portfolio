@@ -47,6 +47,12 @@ p {
   font-weight: 900;
 }
 
+.navbar-brand:visited {
+  color: var(--cta-color);
+  font-size: 30px;
+  font-weight: 900;
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   color: var(--secondary-color);
