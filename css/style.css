@@ -74,9 +74,10 @@ p {
 
 
 /* Header */
+
+/*I have used this property to blur part of the back ground without blurring the text on it*/
 /* .blur {
-  backdrop-filter: blur(10px);
-  I have used this property to blur part of the back ground without blurring the text on it
+  backdrop-filter: blur(10px); 
   padding: 1%;
 } */
 
@@ -103,13 +104,9 @@ p {
   width: 64px;
 }
 
-.hero-brand {}
-
 .hero-para {
   margin-left: 250px;
 }
-
-
 
 /* Skills */
 
@@ -132,7 +129,6 @@ p {
   height: 9rem;
   width: 9rem;
 }
-
 
 /* Works */
 
@@ -182,17 +178,12 @@ p {
   background-color: var(--secondary-color);
 }
 
-
-
-
 /* About and Contact */
-
 
 .bg-color-section {
   background-color: var(--secondary-color);
   padding: 5% 0;
 }
-
 
 .about-contact {
   display: flex;
@@ -202,10 +193,7 @@ p {
   background-color: var(--primary-color);
   border: 5px solid var(--cta-color);
   border-radius: 10px;
-
 }
-
-
 
 .title {
   color: var(--secondary-color);
@@ -236,8 +224,6 @@ p {
   text-transform: uppercase;
 }
 
-
-
 .btn:hover {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -254,8 +240,6 @@ p {
   color: var(--primary-color);
   text-transform: uppercase;
 }
-
-
 
 /* Footer */
 
@@ -296,11 +280,12 @@ p {
 }
 
 
-
-
 /* Media queries */
 
-/* @media only screen and (max-width: 1921px) {
+/* Still I have to write the rest of the MQ for the page */
+
+/* footer */
+@media only screen and (max-width: 1921px) {
   .footer {
     height: 15%;
     flex-direction: column;
@@ -328,4 +313,4 @@ p {
     display: none;
   }
 
-} */
+}
