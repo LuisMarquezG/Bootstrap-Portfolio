@@ -74,20 +74,39 @@ p {
 
 
 /* Header */
-.blur {
+/* .blur {
   backdrop-filter: blur(10px);
-  /*I have used this property to blur part of the back ground without blurring the text on it*/
+  I have used this property to blur part of the back ground without blurring the text on it
   padding: 1%;
-}
+} */
 
 .hero {
-  background-image: url(../images/code-screen.jpg);
+  background-color: var(--secondary-color);
+  /* background-image: url(../images/code-screen.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+}
+
+.avatar-heroText {
+  display: flex;
 }
 
 .hero-text {
-  color: var(--secondary-color);
+  color: var(--primary-color)
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
+  width: 64px;
+}
+
+.hero-brand {}
+
+.hero-para {
+  margin-left: 250px;
 }
 
 
@@ -280,3 +299,33 @@ p {
 
 
 /* Media queries */
+
+/* @media only screen and (max-width: 1921px) {
+  .footer {
+    height: 15%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .footer {
+    height: 15%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .footer {
+    height: 20%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .skills,
+  .footer {
+    display: none;
+  }
+
+} */
